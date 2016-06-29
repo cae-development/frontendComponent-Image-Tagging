@@ -85,7 +85,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         div#imageContainer{ 
             width:100%; 
         } 
-        div#imageContainer{ 
+        div#imageContainer img{ 
             width:100%; 
         }
     </style>
