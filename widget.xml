@@ -87,6 +87,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         } 
         div#imageContainer img{ 
             width:100%; 
+        } 
+        div#comments{ 
+            height : 300px; 
+            overflow-y:scroll;
         }
     </style>
   <!-- import the client library -->
