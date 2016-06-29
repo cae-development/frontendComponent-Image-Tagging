@@ -38,7 +38,7 @@ var init = function() {
     // define your reactions on incoming iwc events here 
     console.log(intent);
     if (intent.action == "openImage") {
-       (intent.data);
+       openImage(intent.data);
     }
   };
 
@@ -48,8 +48,8 @@ var init = function() {
 
 }
 
-// 
-var  = function(imageJsonString){
+// openImage
+var openImage = function(imageJsonString){
 
 //start variable declaration
 
