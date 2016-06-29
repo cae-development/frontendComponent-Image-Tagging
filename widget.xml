@@ -82,7 +82,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- additional widget specific imports (put your own imports here as well) -->
 
     <style type="text/css"> 
-        div#main-content{   
+        div#imageContainer{   
             height:300px;
             overflow-y:scroll;
         } 
