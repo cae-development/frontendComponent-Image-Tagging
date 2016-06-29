@@ -118,8 +118,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <div id='imageContainer' > </div>
    <div id='tagsContainer' >Tags</div>
    <textarea id='commentText' class="form-control" rows="3">Write your comment!</textarea>
-   <div id='comments' >Comments</div>
    <button id='postComment' class="btn btn-default">postComment</button>
+   <div id='comments' >Comments</div>
  
   </div>
 
