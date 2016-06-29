@@ -91,7 +91,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         } 
         div#imageContainer img{ 
             max-width:100%;  
-            max-height:100%;
+            max-height:100%; 
+            margin:auto;
         } 
         div#comments{ 
             height : 300px; 
