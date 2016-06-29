@@ -86,7 +86,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             width:300px; 
         } 
         div#imageContainer img{ 
-            max-width:100%; 
+            width:100%; 
         }
     </style>
   <!-- import the client library -->
