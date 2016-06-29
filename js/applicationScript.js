@@ -33,7 +33,7 @@
 var client;
 
 var init = function() {
-  openImage("{}")
+  openImage("{id:'',url:'http://test.de/faveicon.icon'}")
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
