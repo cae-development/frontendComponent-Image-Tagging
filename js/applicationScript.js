@@ -53,7 +53,7 @@ var openImage = function(imageJsonString){
 
 //start variable declaration
     var imageJson = JSON.parse(imageJsonString); 
-    var imageElement = $()
+    var imageElement = $('<img src="'+imageJson.url+'"/>')
 //end variable declaration
 
 
