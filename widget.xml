@@ -86,7 +86,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             overflow-y:scroll;
         } 
         div#imageContainer img{ 
-            width:100%; 
+            width:100%;  
+            max-height:100%;
         } 
         div#comments{ 
             height : 300px; 
