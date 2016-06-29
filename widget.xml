@@ -84,7 +84,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <style type="text/css"> 
         div#imageContainer{   
             height:400px; 
-            width:100%;
+            width:100px;
         } 
         div#imageContainer img{ 
             max-width:100%;  
