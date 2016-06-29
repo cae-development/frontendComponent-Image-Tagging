@@ -57,7 +57,7 @@ var openImage = function(imageJsonString){
 //end variable declaration
 
 
-  $("#imageContainer").html("Updated Element");
+  $("#imageContainer").html(imageElement);
   //Additional own javascript
 
 }
