@@ -81,7 +81,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
 
-    <style type="text/css"> 
+    <style type="text/css">  
+        div#main-content{ 
+            overflow-y:scroll; 
+        }
         div#imageContainer{   
             height:400px; 
             width:100px;
@@ -92,7 +95,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         } 
         div#comments{ 
             height : 300px; 
-            overflow-y:scroll;
         }
     </style>
   <!-- import the client library -->
