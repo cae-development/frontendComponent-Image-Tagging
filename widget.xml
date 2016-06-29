@@ -83,7 +83,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <style type="text/css">  
         div#main-content{ 
-            overflow-y:scroll; 
+            overflow-y:scroll;  
+            height:300px;
             max-height:100%; 
         }
         div#imageContainer{   
