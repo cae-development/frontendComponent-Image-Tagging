@@ -96,7 +96,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             display: block;
         } 
         div#comments{ 
-            height : 300px; 
+            height : 200px; 
         }
     </style>
   <!-- import the client library -->
