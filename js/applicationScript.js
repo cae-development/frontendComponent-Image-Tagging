@@ -33,7 +33,7 @@
 var client;
 
 var init = function() {
-  openImage('{"id":'','url':'https://www.test.de/file/image/23/55/51886c48-7ecc-4758-ae1b-49cce5c47a73-web/5030775_tdw_arbeitseinkommen_absichern_290.jpg'}")
+  openImage('{"id":"","url":"https://www.test.de/file/image/23/55/51886c48-7ecc-4758-ae1b-49cce5c47a73-web/5030775_tdw_arbeitseinkommen_absichern_290.jpg'}")
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
