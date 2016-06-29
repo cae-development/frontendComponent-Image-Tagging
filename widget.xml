@@ -81,7 +81,14 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
 
-
+    <style type="text/css"> 
+        div#imageContainer{ 
+            width:100%; 
+        } 
+        div#imageContainer{ 
+            width:100%; 
+        }
+    </style>
   <!-- import the client library -->
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/las2peerWidgetLibrary.js"></script>
   <!-- import application script -->
