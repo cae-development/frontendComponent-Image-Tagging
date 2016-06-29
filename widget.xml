@@ -101,6 +101,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <div class="container" id="main-content">
 
    <div id='imageContainer' > </div>
+   <div id='comments' > </div>
  
   </div>
 
