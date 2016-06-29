@@ -83,7 +83,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <style type="text/css"> 
         div#main-content{  
-            overflow:scroll;
+            overflow-y:scroll;
         } 
         div#imageContainer img{ 
             width:100%; 
