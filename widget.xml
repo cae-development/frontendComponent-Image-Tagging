@@ -92,7 +92,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             display: block;
         } 
         div#comments{ 
-            height : 200px;  
+            height : 150px;  
             overflow-y:scroll;
         }
     </style>
