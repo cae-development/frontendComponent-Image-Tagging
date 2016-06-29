@@ -37,12 +37,27 @@ var init = function() {
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
-
+    if (intent.action == "openImage") {
+       (intent.data);
+    }
   };
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
 
 
+
+}
+
+// 
+var  = function(imageJsonString){
+
+//start variable declaration
+
+//end variable declaration
+
+
+  $("#imageContainer").html("Updated Element");
+  //Additional own javascript
 
 }
 
