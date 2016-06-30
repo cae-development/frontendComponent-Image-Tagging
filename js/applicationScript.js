@@ -56,19 +56,32 @@ var openImage = function(imageJsonString){
     var imageElement = $('<img src="'+imageJson.url+'"/>')
 //end variable declaration
 
+
+  $("#imageContainer").html(imageElement);
+  //Additional own javascript
+
+}
+
+// loadComments
+var loadComments = function(id){
+
+//start variable declaration
+
+//end variable declaration
+
   client.sendRequest("GET", "tagging/comments", "", "", {}, false,
   function(data, type) {
     console.log(data);
     //Also update the html element?
-    //$("#imageContainer").html("Updated Element");
+    //$("#comments").html("Updated Element");
   },
   function(error) {
     console.log(error);
     //Also update the html element?
-    //$("#imageContainer").html("Updated Element");
+    //$("#comments").html("Updated Element");
   });
   
-  $("#imageContainer").html(imageElement);
+  $("#comments").html("Updated Element");
   //Additional own javascript
 
 }
