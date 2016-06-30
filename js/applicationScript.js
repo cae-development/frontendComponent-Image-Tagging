@@ -70,7 +70,8 @@ Y({
 var openImage = function(imageJsonString){
 
 //start variable declaration
-    var imageJson = JSON.parse(imageJsonString); 
+    var imageJson = JSON.parse(imageJsonString);  
+    currentImg = imageJson.id;
     var imageElement = $('<img src="'+imageJson.url+'"/>')
 //end variable declaration
 
