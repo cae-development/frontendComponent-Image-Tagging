@@ -93,7 +93,8 @@ var enterTextarea = function(){
 //start variable declaration
 //end variable declaration
 
-  $("#commentText").html("");
+    //$("#commentText").text("");
+    //$("#commentText").html("");
 
 }
 
