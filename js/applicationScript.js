@@ -70,7 +70,7 @@ alert(id);
 
 //end variable declaration
 
-  client.sendRequest("GET", "tagging/comments", "", "", {}, false,
+  client.sendRequest("GET", "tagging/comments/"+id, "", "", {}, false,
   function(data, type) {
     console.log(data);
     //Also update the html element?
