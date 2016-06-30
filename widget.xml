@@ -160,8 +160,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <div id='tagsContainer' >Tags</div>
    <textarea id='commentText' class="form-control" rows="3">Write your comment!</textarea>
    <br id='br1' >
-   <button id='postComment' class="btn btn-default">Post your comment</button>
    <br id='br2' >
+   <button id='postComment' class="btn btn-default">Post your comment</button>
    <div id='comments' >Comments</div>
    <div id='spinner' class="spinner" > </div>
  
