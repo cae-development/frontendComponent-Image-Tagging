@@ -118,7 +118,7 @@ var postComment = function(){
   client.sendRequest("PUT", "tagging/comments/"+currentImg, commentJson, "application/json", {}, false,
   function(data, type) {
     console.log(data); 
-    
+    loadComments();
     //Also update the html element?
     $("#commentText").html("Write your comment");
   },
