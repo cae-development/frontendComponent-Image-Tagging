@@ -126,7 +126,7 @@ var postComment = function(){
     $("#commentText").html("Error while sending comment: " + e.message);
   });
   
-  $("#commentText").html("Updated Element");
+  $("#commentText").html("Sending comment..");
   //Additional own javascript
 
 }
