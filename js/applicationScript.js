@@ -117,7 +117,8 @@ var postComment = function(){
    });
   client.sendRequest("PUT", "tagging/comments/"+currentImg, commentJson, "application/json", {}, false,
   function(data, type) {
-    console.log(data);
+    console.log(data); 
+    
     //Also update the html element?
     $("#commentText").html("Write your comment");
   },
