@@ -74,7 +74,7 @@ var loadComments = function(id){
   function(data, type) {
     console.log(data);
     var comments = data.comments.map( function(comment){ 
-        return $("<div/>").html(comment.text); 
+        return $("<div id='cmt'/>").html(comment.text); 
     }); 
     $("#spinner").hide();
     $("#comments").html(comments);
