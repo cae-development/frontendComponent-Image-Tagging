@@ -66,6 +66,12 @@ Y({
     //start parameter initiation
 
     //end parameter initiation
+    postComment();
+  })
+  $('#commentText').on('click', function() {
+    //start parameter initiation
+
+    //end parameter initiation
     enterTextarea();
   })
 
@@ -95,6 +101,31 @@ var enterTextarea = function(){
 
     $("#commentText").val("");
     //$("#commentText").html("");
+
+}
+
+// postComment
+var postComment = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+   var commentJson = null;
+  client.sendRequest("PUT", "tagging/comments", commentJson, "application/json", {}, false,
+  function(data, type) {
+    console.log(data);
+    //Also update the html element?
+    //$("#commentText").html("Updated Element");
+  },
+  function(error) {
+    console.log(error);
+    //Also update the html element?
+    //$("#commentText").html("Updated Element");
+  });
+  
+  $("#commentText").html("Updated Element");
+  //Additional own javascript
 
 }
 
