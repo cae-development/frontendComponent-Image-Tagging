@@ -100,7 +100,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             min-height:50px; 
         }
         div#comments div#cmt:nth-child(even){ 
-            background-color:black; 
+            background-color:#e6f5fc; 
         }
         div#comments{ 
             height : 125px;  
