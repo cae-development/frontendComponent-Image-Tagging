@@ -81,7 +81,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
 
-    <style type="text/css">  
+    <style type="text/css"> 
         div#imageContainer{   
             height:200px; 
         } 
@@ -91,7 +91,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             margin:auto; 
             display: block; 
             box-shadow: 0px 0px 7px #000000;
-        }  
+        }   
+        div#comments div#cmt{ 
+            min-height:75px; 
+        }
         div#comments div#cmt:nth-child(even){ 
             background-color:black; 
         }
