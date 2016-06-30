@@ -112,7 +112,7 @@ var postComment = function(){
 //end variable declaration
 
    var commentJson = null; 
-   commentJSon = JSON.stringify({ 
+   commentJson = JSON.stringify({ 
      text : $("#commentText").val() 
    });alert(commentJson);
   client.sendRequest("PUT", "tagging/comments/"+currentImg, commentJson, "application/json", {}, false,
