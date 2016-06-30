@@ -104,7 +104,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         }
         div#comments{ 
             height : 125px;  
-            overflow-y:scroll;
+            overflow-y:scroll; 
+            margin:5px;
         } 
         #spinner{ 
             display:block; 
