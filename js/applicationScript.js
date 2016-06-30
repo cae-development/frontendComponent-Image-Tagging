@@ -43,24 +43,6 @@ var init = function() {
   };
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
-Y({
-  db: {
-    name: 'memory'
-  },
-  connector: {
-    name: 'websockets-client',
-    room: 'cae-room'
-  },
-  sourceDir: "http://y-js.org/bower_components",
-  share: {
-    spacer:'Text' 
-  }
-}).then(function (y) {
-  window.yTextarea = y
-  y.share.spacer.bind(document.getElementById('spacer'))
- 
-})
-
   openImage('{"id":"2","url":"https://www.test.de/file/image/23/55/51886c48-7ecc-4758-ae1b-49cce5c47a73-web/5030775_tdw_arbeitseinkommen_absichern_290.jpg"}');
   $('#postComment').on('click', function() {
     //start parameter initiation
