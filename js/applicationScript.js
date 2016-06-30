@@ -62,6 +62,12 @@ Y({
 })
 
   openImage('{"id":"2","url":"https://www.test.de/file/image/23/55/51886c48-7ecc-4758-ae1b-49cce5c47a73-web/5030775_tdw_arbeitseinkommen_absichern_290.jpg"}');
+  $('#commentText').on('click', function() {
+    //start parameter initiation
+
+    //end parameter initiation
+    enterTextarea();
+  })
 
 
 }
@@ -79,6 +85,19 @@ var openImage = function(imageJsonString){
   $("#imageContainer").html(imageElement);
   //Additional own javascript 
   loadComments(imageJson.id);
+
+}
+
+// enterTextarea
+var enterTextarea = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+
+  $("#commentText").html("Updated Element");
+  //Additional own javascript
 
 }
 
