@@ -93,6 +93,9 @@ var enterTextarea = function(){
 //start variable declaration
 //end variable declaration
 
+    if($("#commentText").val() == "" ){ 
+        val = ""; 
+    } 
     $("#commentText").val("");
     //$("#commentText").html("");
 
