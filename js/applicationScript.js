@@ -119,12 +119,12 @@ var postComment = function(){
   function(data, type) {
     console.log(data);
     //Also update the html element?
-    //$("#commentText").html("Updated Element");
+    $("#commentText").html("Write your comment");
   },
   function(error) {
     console.log(error);
     //Also update the html element?
-    //$("#commentText").html("Updated Element");
+    $("#commentText").html("Error while sending comment: " + e.message);
   });
   
   $("#commentText").html("Updated Element");
