@@ -76,6 +76,9 @@ var loadComments = function(id){
   client.sendRequest("GET", "tagging/comments", imageJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
+    var comments = data.comments.map( function(comment){ 
+        return $("<div/>").html(comment.) 
+    }); 
     //Also update the html element?
     //$("#comments").html("Updated Element");
   },
