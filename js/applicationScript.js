@@ -112,7 +112,7 @@ var postComment = function(){
 //end variable declaration
 
    var commentJson = null;
-  client.sendRequest("PUT", "tagging/comments", commentJson, "application/json", {}, false,
+  client.sendRequest("PUT", "tagging/comments/"+currentImg, commentJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
     //Also update the html element?
