@@ -80,7 +80,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- inter widget communication library import -->
   <script type="text/javascript" src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/iwc.js"></script>
   <!-- additional widget specific imports (put your own imports here as well) -->
-
+  <script src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/y.js"></script>
+  <script src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/y-array.js"></script>
+  <script src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/y-text.js"></script>
+  <script src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/y-websockets-client.js"></script>  
+  <script src="http://cae-development.github.io/frontendComponent-Image-Tagging/js/lib/y-memory.js"></script>
     <style type="text/css"> 
         div#imageContainer{   
             height:200px; 
@@ -159,6 +163,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <button id='postComment' class="btn btn-default">Post your comment</button>
    <div id='comments' >Comments</div>
    <div id='spinner' class="spinner" > </div>
+   <br id='br2' >
  
   </div>
 
