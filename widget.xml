@@ -161,7 +161,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <textarea id='commentText' class="form-control" rows="3">Write your comment!</textarea>
    <br id='br1' >
    <button id='postComment' class="btn btn-default">Post your comment</button>
-   <div id='spacer' > </div>
+   <div id='spacer' style="height:10px" > </div>
    <div id='comments' >Comments</div>
    <div id='spinner' class="spinner" > </div>
  
