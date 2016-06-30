@@ -77,10 +77,9 @@ var loadComments = function(id){
   function(data, type) {
     console.log(data);
     var comments = data.comments.map( function(comment){ 
-        return $("<div/>").html(comment.) 
+        return $("<div/>").html(comment.text); 
     }); 
-    //Also update the html element?
-    //$("#comments").html("Updated Element");
+    $("#comments").html(comments);
   },
   function(error) {
     console.log(error);
