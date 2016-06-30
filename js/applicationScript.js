@@ -70,15 +70,11 @@ alert(id);
 
 //end variable declaration
 
-   var imageJson = null; 
-   imageJson = "/"+id;
-  client.sendRequest("GET", "tagging/comments", imageJson, "application/json", {}, false,
+  client.sendRequest("GET", "tagging/comments", "", "", {}, false,
   function(data, type) {
     console.log(data);
-    var comments = data.comments.map( function(comment){ 
-        return $("<div/>").html(comment.text); 
-    }); 
-    $("#comments").html(comments);
+    //Also update the html element?
+    //$("#comments").html("Updated Element");
   },
   function(error) {
     console.log(error);
