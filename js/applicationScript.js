@@ -90,14 +90,10 @@ var openImage = function(imageJsonString){
 
 // enterTextarea
 var enterTextarea = function(){
-
 //start variable declaration
-
 //end variable declaration
 
-
-  $("#commentText").html("Updated Element");
-  //Additional own javascript
+  $("#commentText").html("");
 
 }
 
