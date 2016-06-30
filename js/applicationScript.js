@@ -71,9 +71,7 @@ alert(id);
 //end variable declaration
 
    var imageJson = null; 
-   imageJson = { 
-        id : id  
-   };
+   imageJson = "/"+id;
   client.sendRequest("GET", "tagging/comments", imageJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
