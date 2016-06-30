@@ -73,8 +73,10 @@ alert(id);
   client.sendRequest("GET", "tagging/comments/"+id, "", "", {}, false,
   function(data, type) {
     console.log(data);
-    //Also update the html element?
-    //$("#comments").html("Updated Element");
+    var comments = data.comments.map( function(comment){ 
+        return $("<div/>").html(comment.text); 
+    });
+    $("#comments").html(comments);
   },
   function(error) {
     console.log(error);
