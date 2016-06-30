@@ -69,7 +69,8 @@ var loadComments = function(id){
 
 //end variable declaration
 
-  client.sendRequest("GET", "tagging/comments", "", "", {}, false,
+   var imageJson = null;
+  client.sendRequest("GET", "tagging/comments", imageJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
     //Also update the html element?
