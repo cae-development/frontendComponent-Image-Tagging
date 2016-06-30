@@ -31,7 +31,7 @@
  */
 
 var client;
-
+var currentImg = null;
 var init = function() {
 
   var iwcCallback = function(intent) {
