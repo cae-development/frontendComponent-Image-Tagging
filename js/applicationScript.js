@@ -83,7 +83,7 @@ var openImage = function(imageJsonString){
 }
 
 // loadComments
-var loadComments = function(id){
+var loadComments = function(){
   $("#spinner").show();
 //start variable declaration
 
