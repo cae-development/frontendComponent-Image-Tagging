@@ -76,12 +76,12 @@ var loadComments = function(id){
     var comments = data.comments.map( function(comment){ 
         return $("<div/>").html(comment.text); 
     }); 
-    $("#spinner").show();
+    $("#spinner").hide();
     $("#comments").html(comments);
   },
   function(error) {
     console.log(error);
-    $("#spinner").show();
+    $("#spinner").hide();
     $("#comments").html("Updated Element");
   });
   
