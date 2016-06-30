@@ -114,6 +114,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <br id='br1' >
    <button id='postComment' class="btn btn-default">Post your comment</button>
    <div id='comments' >Comments</div>
+   <div id='spinner' > </div>
  
   </div>
 
