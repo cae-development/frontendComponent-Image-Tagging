@@ -65,7 +65,7 @@ var openImage = function(imageJsonString){
 
 // loadComments
 var loadComments = function(id){
-
+alert(id);
 //start variable declaration
 
 //end variable declaration
