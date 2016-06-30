@@ -53,11 +53,11 @@ Y({
   },
   sourceDir: "http://y-js.org/bower_components",
   share: {
-    br2:'Text' 
+    spacer:'Text' 
   }
 }).then(function (y) {
   window.yTextarea = y
-  y.share.br2.bind(document.getElementById('br2'))
+  y.share.spacer.bind(document.getElementById('spacer'))
  
 })
 
