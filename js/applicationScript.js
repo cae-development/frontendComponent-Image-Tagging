@@ -91,12 +91,13 @@ var openImage = function(imageJsonString){
 // enterTextarea
 var enterTextarea = function(){
 //start variable declaration
+    var val =""; 
 //end variable declaration
 
     if($("#commentText").val() == "" ){ 
-        val = ""; 
+        val = "Write your comment!"; 
     } 
-    $("#commentText").val("");
+    $("#commentText").val(val);
     //$("#commentText").html("");
 
 }
