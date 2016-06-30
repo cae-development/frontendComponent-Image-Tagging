@@ -65,7 +65,7 @@ var openImage = function(imageJsonString){
 
 // loadComments
 var loadComments = function(id){
-alert(id);
+  $("#spinner").show();
 //start variable declaration
 
 //end variable declaration
