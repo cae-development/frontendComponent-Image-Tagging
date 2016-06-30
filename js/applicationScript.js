@@ -69,7 +69,10 @@ var loadComments = function(id){
 
 //end variable declaration
 
-   var imageJson = null;
+   var imageJson = null; 
+   imageJson = JSON.stringify({ 
+        id : id  
+   });
   client.sendRequest("GET", "tagging/comments", imageJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
