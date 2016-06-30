@@ -89,7 +89,7 @@ var loadComments = function(id){
 
 //end variable declaration
 
-  client.sendRequest("GET", "tagging/comments/"+id, "", "", {}, false,
+  client.sendRequest("GET", "tagging/comments/"+currentImg, "", "", {}, false,
   function(data, type) {
     console.log(data);
     var comments = data.comments.map( function(comment){ 
