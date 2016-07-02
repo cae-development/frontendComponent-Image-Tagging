@@ -94,7 +94,7 @@ var loadTags = function(){
   function(data, type) {
     console.log(data);
     var tags = $("<h4/>").append(data.tags.map( function(tag){ 
-        return $("<span class='label label-primary'/>\n").html(tag.name); 
+        return $("<span class='label label-primary'/>\n ").html(tag.name); 
     }));
     $("#tagsContainer").html(tags);
   },
