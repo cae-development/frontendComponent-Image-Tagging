@@ -140,6 +140,26 @@ var loadComments = function(){
 
 }
 
+// addTag
+var addTag = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+   var tagJson = null;
+  client.sendRequest("PUT", "tagging/tags/", tagJson, "application/json", {}, false,
+  function(data, type) {
+    console.log(data);
+  },
+  function(error) {
+    console.log(error);
+  });
+  
+  //Additional own javascript
+
+}
+
 
 $(document).ready(function() {
   init();
