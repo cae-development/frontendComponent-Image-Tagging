@@ -97,6 +97,7 @@ var loadTags = function(){
     console.log(error);
   });
   
+  $("#tagsContainer").html("Updated Element");
   //Additional own javascript
 
 }
