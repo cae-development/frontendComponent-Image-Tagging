@@ -115,7 +115,7 @@ var postComment = function(){
 
 // loadComments
 var loadComments = function(){
-  $("#spinner").show();alert("loadcomment");
+  $("#spinner").show();
 //start variable declaration
 
 //end variable declaration
@@ -125,7 +125,7 @@ var loadComments = function(){
     console.log(data);
     var comments = data.comments.map( function(comment){ 
         return $("<div id='cmt'/>").html(comment.text); 
-    }); alert("ja");
+    }); 
     $("#spinner").hide();
     $("#comments").html(comments);
   },
