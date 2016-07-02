@@ -131,7 +131,7 @@ var loadComments = function(){
   },
   function(error) {
     console.log(error);
-    $("#spinner").hide();alert("error");
+    $("#spinner").hide();
     $("#comments").html("Updated Element");
   });
   
