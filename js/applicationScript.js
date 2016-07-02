@@ -179,7 +179,7 @@ var addTag = function(){
   });
   client.sendRequest("PUT", "tagging/tags/"+currentImg, tagJson, "application/json", {}, false,
   function(data, type) {
-    console.log(data);
+    loadTags();
   },
   function(error) {
     console.log(error);
