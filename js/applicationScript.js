@@ -82,6 +82,25 @@ var openImage = function(imageJsonString){
 
 }
 
+// loadTags
+var loadTags = function(){
+
+//start variable declaration
+
+//end variable declaration
+
+  client.sendRequest("GET", "tagging/tags/", "", "", {}, false,
+  function(data, type) {
+    console.log(data);
+  },
+  function(error) {
+    console.log(error);
+  });
+  
+  //Additional own javascript
+
+}
+
 // enterTextarea
 var enterTextarea = function(){
 //start variable declaration
