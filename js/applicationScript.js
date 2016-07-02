@@ -125,7 +125,7 @@ var loadComments = function(){
     console.log(data);
     var comments = data.comments.map( function(comment){ 
         return $("<div id='cmt'/>").html(comment.text); 
-    }); 
+    }); alert("ja");
     $("#spinner").hide();
     $("#comments").html(comments);
   },
