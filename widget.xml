@@ -157,8 +157,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    <div id='spinner' class="spinner" > </div>
    <div id='imageContainer' > </div>
    <div id='tagsContainer' >Tags</div>
-   <input id='tag' > </input>
    <button id='addTag' class="btn btn-default">addTag</button>
+   <input id='tag' > </input>
    <div id='comments' >Comments</div>
    <br id='br2' >
    <textarea id='commentText' class="form-control" rows="3">Write your comment!</textarea>
