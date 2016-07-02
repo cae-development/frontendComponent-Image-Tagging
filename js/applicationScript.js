@@ -81,6 +81,7 @@ var openImage = function(imageJsonString){
 var loadTags = function(){
 
 //start variable declaration
+   var tagging/tags/ = null;
 
 //end variable declaration
 
@@ -100,7 +101,7 @@ var loadTags = function(){
   
   $("#tagsContainer").html("Updated Element");
   //Additional own javascript
-
+ return tagging/tags/;
 }
 
 // postComment
