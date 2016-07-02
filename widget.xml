@@ -100,7 +100,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             background-color:#e6f5fc; 
         }
         div#comments{ 
-            height : 125px;  
+            height : 75px;  
             overflow-y:scroll; 
             margin:5px;
         } 
