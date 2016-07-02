@@ -115,7 +115,7 @@ var postComment = function(){
 
 // loadComments
 var loadComments = function(){
-  $("#spinner").show();
+  $("#spinner").show();alert("loadcomment");
 //start variable declaration
 
 //end variable declaration
