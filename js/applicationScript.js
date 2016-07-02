@@ -77,8 +77,8 @@ var openImage = function(imageJsonString){
 
 }
 
-// 
-var  = function(){
+// loadTags
+var loadTags = function(){
 
 //start variable declaration
 
