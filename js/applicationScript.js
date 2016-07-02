@@ -33,7 +33,7 @@
 var client;
 var currentImg = null;
 var init = function() {
-
+  gagdets.window.adjustHeight();
   var iwcCallback = function(intent) {
     // define your reactions on incoming iwc events here 
     console.log(intent);
