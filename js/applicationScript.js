@@ -147,7 +147,10 @@ var addTag = function(){
 
 //end variable declaration
 
-   var tagJson = null;
+   var tagJson = null; 
+  tagJson = JSON.stringify({ 
+     
+  });
   client.sendRequest("PUT", "tagging/tags/"+currentImg, tagJson, "application/json", {}, false,
   function(data, type) {
     console.log(data);
