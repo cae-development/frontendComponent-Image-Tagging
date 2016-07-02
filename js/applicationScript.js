@@ -56,12 +56,6 @@ var init = function() {
     //end parameter initiation
     postComment();
   })
-  $('#commentText').on('click', function() {
-    //start parameter initiation
-
-    //end parameter initiation
-    enterTextarea();
-  })
 
 
 }
@@ -83,14 +77,14 @@ var openImage = function(imageJsonString){
 
 }
 
-// loadTags
-var loadTags = function(){
+// 
+var  = function(){
 
 //start variable declaration
 
 //end variable declaration
 
-  client.sendRequest("GET", "tagging/tags/"+currentImg, "", "", {}, false,
+  client.sendRequest("GET", ""+currentImg, "", "", {}, false,
   function(data, type) {
     console.log(data);
     var tags = $("<h4/>").append(data.tags.map( function(tag){ 
@@ -106,16 +100,6 @@ var loadTags = function(){
   
   $("#tagsContainer").html("Updated Element");
   //Additional own javascript
-
-}
-
-// enterTextarea
-var enterTextarea = function(){
-//start variable declaration
-//end variable declaration
-
-    $("#commentText").val("");
-    //$("#commentText").html("");
 
 }
 
