@@ -92,8 +92,10 @@ var loadTags = function(){
   client.sendRequest("GET", "tagging/tags/"+currentImg, "", "", {}, false,
   function(data, type) {
     console.log(data);
-    //Also update the html element?
-    //$("#tagsContainer").html("Updated Element");
+    var tags = data.tags.map( function(tag){ 
+        return $("<div/>").html(tag.name); 
+    });
+    $("#tagsContainer").html(tags);
   },
   function(error) {
     console.log(error);
