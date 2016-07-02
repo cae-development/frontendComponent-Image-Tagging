@@ -92,9 +92,13 @@ var loadTags = function(){
   client.sendRequest("GET", "tagging/tags/"+currentImg, "", "", {}, false,
   function(data, type) {
     console.log(data);
+    //Also update the html element?
+    //$("#tagsContainer").html("Updated Element");
   },
   function(error) {
     console.log(error);
+    //Also update the html element?
+    //$("#tagsContainer").html("Updated Element");
   });
   
   $("#tagsContainer").html("Updated Element");
