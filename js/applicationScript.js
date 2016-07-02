@@ -93,7 +93,7 @@ var loadTags = function(){
   function(data, type) {
     console.log(data);
     var tags = data.tags.map( function(tag){ 
-        return $("<div/>").html(tag.name); 
+        return $("<span class='label label-primary'/>").html(tag.name); 
     });
     $("#tagsContainer").html(tags);
   },
