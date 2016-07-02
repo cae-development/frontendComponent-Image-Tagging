@@ -89,7 +89,7 @@ var loadTags = function(){
 
 //end variable declaration
 
-  client.sendRequest("GET", "tagging/tags/", "", "", {}, false,
+  client.sendRequest("GET", "tagging/tags/"+currentImg, "", "", {}, false,
   function(data, type) {
     console.log(data);
   },
