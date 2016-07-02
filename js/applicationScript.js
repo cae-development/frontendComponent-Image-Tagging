@@ -92,9 +92,9 @@ var loadTags = function(){
   client.sendRequest("GET", "tagging/tags/"+currentImg, "", "", {}, false,
   function(data, type) {
     console.log(data);
-    var tags = data.tags.map( function(tag){ 
+    var tags = $("h2").append(data.tags.map( function(tag){ 
         return $("<span class='label label-primary'/>").html(tag.name); 
-    });
+    }));
     $("#tagsContainer").html(tags);
   },
   function(error) {
