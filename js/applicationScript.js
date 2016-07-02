@@ -43,7 +43,7 @@ var init = function() {
   };
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
-  openImage('{"id":"2","url":"https://www.test.de/file/image/23/55/51886c48-7ecc-4758-ae1b-49cce5c47a73-web/5030775_tdw_arbeitseinkommen_absichern_290.jpg"}');
+  openImage('{"id":"1","url":"https://www.test.de/file/image/23/55/51886c48-7ecc-4758-ae1b-49cce5c47a73-web/5030775_tdw_arbeitseinkommen_absichern_290.jpg"}');
   $('#postComment').on('click', function() {
     //start parameter initiation
 
