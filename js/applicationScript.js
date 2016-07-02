@@ -84,7 +84,7 @@ var loadTags = function(){
 
 //end variable declaration
 
-  client.sendRequest("GET", "tagging/tags"+currentImg, "", "", {}, false,
+  client.sendRequest("GET", "tagging/tags/"+currentImg, "", "", {}, false,
   function(data, type) {
     console.log(data);
     var tags = $("<h4/>").append(data.tags.map( function(tag){ 
