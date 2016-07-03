@@ -149,6 +149,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             height:100%; 
             width:100%; 
             background: rgb(255,255,255); 
+            text-align:center; 
             z-index:100; 
         }
 
