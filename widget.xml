@@ -164,9 +164,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <!-- container for actual page content -->
   <div class="container" id="main-content">
 
-   <div id='overlay' > </div>
+   <div id='overlay' >Please select a picture </div>
    <div id='spinner' class="spinner" > </div>
-   <div id='imageContainer' >Please select a picture </div>
+   <div id='imageContainer' > </div>
    <div id='tagsContainer' >Tags</div>
    <input id='tag' > </input>
    <button id='addTag' class="btn btn-default">addTag</button>
