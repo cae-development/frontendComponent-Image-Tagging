@@ -43,7 +43,7 @@ var init = function() {
   };
 
   client = new Las2peerWidgetLibrary("http://localhost:8086", iwcCallback);
-
+  openImage("{'id':'1','url':''}");
   $('#addTag').on('click', function() {
     //start parameter initiation
 
