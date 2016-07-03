@@ -68,7 +68,7 @@ var openImage = function(){
 //end variable declaration
 
 
-  $("#imageContainer").html(imageElement);
+  $("#imageContainer").html("");
   //Additional own javascript 
   loadComments(); 
   loadTags();
