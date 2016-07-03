@@ -143,7 +143,6 @@ var loadComments = function(){
     var comments = data.comments.map( function(comment){ 
         return $("<div id='cmt'/>").html(comment.text); 
     }); 
-    $("#spinner").hide();
     $("#comments").html(comments);
   },
   function(error) {
