@@ -148,7 +148,7 @@ var loadComments = function(){
     $("#comments").html("Updated Element");
   });
   
-  $("#comments").html("Updated Element");
+  $("#comments").html("Loading Comments");
   //Additional own javascript
 
 }
