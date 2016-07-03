@@ -64,7 +64,7 @@ var init = function() {
 var openImage = function(imageJson){
 
 //start variable declaration
-  var image
+  var imageJson = JSON.parse(imageJson); 
 //end variable declaration
 
 
