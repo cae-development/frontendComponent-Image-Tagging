@@ -69,7 +69,7 @@ var openImage = function(imageJsonString){
 //end variable declaration
 
 
-  $("#imageContainer").html("");
+  $("#imageContainer").html(image);
   //Additional own javascript 
   loadComments(); 
   loadTags(); 
