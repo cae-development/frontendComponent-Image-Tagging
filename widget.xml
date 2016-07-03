@@ -105,7 +105,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             margin:5px;
         } 
         #spinner{ 
-            display:block; 
+            display:none; 
         }
         .spinner {
            position: absolute;
