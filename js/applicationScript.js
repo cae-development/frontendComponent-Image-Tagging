@@ -131,8 +131,8 @@ var postComment = function(){
 }
 
 // loadComments
-var loadComments = function(){
-  $("#spinner").show();
+var loadComments = function(){ 
+
 //start variable declaration
 
 //end variable declaration
