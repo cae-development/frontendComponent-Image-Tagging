@@ -140,7 +140,17 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         @keyframes rotation {
            from {transform: rotate(0deg);}
            to {transform: rotate(359deg);}
-        } 
+        }  
+ 
+        div#overlay{ 
+            position:absoulte; 
+            top:0px; 
+            left: 0px; 
+            height:100%; 
+            width:100%; 
+            background-color:#000000; 
+            z-index:100; 
+        }
 
     </style>
   <!-- import the client library -->
