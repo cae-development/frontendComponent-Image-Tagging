@@ -69,7 +69,8 @@ var openImage = function(){
   $("#imageContainer").html("");
   //Additional own javascript 
   loadComments(); 
-  loadTags();
+  loadTags(); 
+  $("#overlay").hide();
 
 }
 
