@@ -31,7 +31,7 @@
  */
 
 var client;
-var currentImg = null;
+var currentImg = 1;
 var init = function() {
   gadgets.window.adjustHeight();
   var iwcCallback = function(intent) {
