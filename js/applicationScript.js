@@ -148,7 +148,6 @@ var loadComments = function(){
   },
   function(error) {
     console.log(error);
-    $("#spinner").hide();
     $("#comments").html("Error");
   });
   
