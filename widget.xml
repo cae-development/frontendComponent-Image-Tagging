@@ -155,7 +155,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <div class="container" id="main-content">
 
    <div id='spinner' class="spinner" > </div>
-   <div id='imageContainer' > </div>
+   <div id='imageContainer' >Please select a picture </div>
    <div id='tagsContainer' >Tags</div>
    <input id='tag' > </input>
    <button id='addTag' class="btn btn-default">addTag</button>
