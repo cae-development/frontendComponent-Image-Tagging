@@ -108,8 +108,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             position:fixed; 
             top:0px; 
             left: 0px; 
-            height:100%; 
-            width:100%; 
+            height:0px; 
+            width:0px; 
             background: rgb(255,255,255); 
             text-align:center; 
             z-index:100; 
