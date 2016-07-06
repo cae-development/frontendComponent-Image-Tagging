@@ -99,7 +99,7 @@ var loadTags = function(){
     //$("#tagsContainer").html("Updated Element");
   });
   
-  $("#tagsContainer").html("Updated Element");
+  $("#tagsContainer").html("Loading tags");
   //Additional own javascript
 
 }
