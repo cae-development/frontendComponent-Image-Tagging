@@ -42,7 +42,7 @@ var init = function() {
     }
   };
 
-  client = new Las2peerWidgetLibrary("http://134.61.172.116:8086", iwcCallback);
+  client = new Las2peerWidgetLibrary("http://137.226.232.228:8086", iwcCallback);
 
   $('#addTag').on('click', function() {
     //start parameter initiation
